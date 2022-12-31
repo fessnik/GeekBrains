@@ -2,46 +2,197 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100300400700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="header center">
+    <!-- HEADER -->
+<div class="header center">
     <div class="header__left">
-        <a class="logo" href="#"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="logo__color">D</span></a>
+        <a class="logo" href="index.html"><img class="logo__img" src="img/index/logo.png" alt="logo">BRAN<span class="logo__color">D</span></a>
         <form class="header__form" action="#">
-            <div class="Browse">
-            <span class="browse__text">Browse</span>
-            <img class="point down" src="img/point%20down%20for%20browse.png" alt="point down"></div>
-            <input class="header__input" type class="text" placeholder="Search for Item..."><buton class="search"><img src="img/Lupa.png" alt="lupa"></buton>
+        <details class="browse">
+            <summary class="browse__summary">Browse</summary>
+            <div class="drop drop__browse">
+                <div class="drop__flex">
+                    <h3 class="drop_h3">Women</h3>
+                    <ul class="drop_ul">
+                        <li><a href="#" class="drop_link">Dresses</a></li>
+                        <li><a href="#" class="drop_link">Tops</a></li>
+                        <li><a href="#" class="drop_link">Sweaters/knits</a></li>
+                        <li><a href="#" class="drop_link">Jackets/Coats</a></li>
+                        <li><a href="#" class="drop_link">Blazers</a></li>
+                        <li><a href="#" class="drop_link">Denim</a></li>
+                        <li><a href="#" class="drop_link">Pants</a></li>
+                        <li><a href="#" class="drop_link">Skirts/Shorts</a></li>
+                        <li><a href="#" class="drop_link">Accessories</a></li>
+                    </ul>
+                    <h3 class="drop_h3">Men</h3>
+                    <ul class="drop_ul">
+                        <li><a href="#" class="drop_link">Tees/Tank tops</a></li>
+                        <li><a href="#" class="drop_link">Shirts/Polos</a></li>
+                        <li><a href="#" class="drop_link">Sweaters</a></li>
+                        <li><a href="#" class="drop_link">Sweatshirts/Hoodies</a></li>
+                        <li><a href="#" class="drop_link">Blazers </a></li>
+                        <li><a href="#" class="drop_link">Jackets/vests</a></li>
+                    </ul>
+                </div>
+            </div>
+        </details>
+        <input class="header__input" type class="text" placeholder="Search for Item...">
+        <buton class="search"><img src="img/index/Lupa.png" height="14px" width="14px" alt="lupa"></buton>
         </form>
     </div>
     
     <div class="header__right">
-        <img class="headar__cart" src="img/Korzina.png" alt="Korzina">
-        <a class="button" href="#">
-        <span class="My acount__text">My Account</span>
-        <img class="point down__my account" src="img/poind%20down%20for%20my%20account.png" alt="point down">
-    </a>
+        <img class="headar__cart" src="img/index/cart.png" alt="cart">
+        <button class="account" type="submit">My Account <span class="account_span"></span></button>
     </div>
+</div>
+
+<!-- NAVIGATION -->
+    
+<div class="navigation center">
+    <ul class="menu">
+        <li class="menu__list"><a href="index.html" class="menu__link">Home </a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Man</a>
+            <div class="drop drop__menu">
+                <div class="drop__flex">
+                    <h3 class="drop_h3">Women</h3>
+                    <ul class="drop_ul">
+                        <li><a href="#" class="drop_link">Dresses</a></li>
+                        <li><a href="#" class="drop_link">Tops</a></li>
+                        <li><a href="#" class="drop_link">Sweaters/Knits</a></li>
+                        <li><a href="#" class="drop_link">Jackets/Coats</a></li>
+                        <li><a href="#" class="drop_link">Blazers</a></li>
+                        <li><a href="#" class="drop_link">Denim</a></li>
+                        <li><a href="#" class="drop_link">Leggings/Pants</a></li>
+                        <li><a href="#" class="drop_link">Skirts/Shorts</a></li>
+                        <li><a href="#" class="drop_link">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="drop__flex">
+                    <h3 class="drop_h3">Women</h3>
+                    <ul class="drop_ul">
+                        <li><a href="#" class="drop_link">Dresses</a></li>
+                        <li><a href="#" class="drop_link">Tops</a></li>
+                        <li><a href="#" class="drop_link">Sweaters/knits</a></li>
+                        <li><a href="#" class="drop_link">Jackets/Coats</a></li>
+                    </ul>
+                    <h3 class="drop_h3">Women</h3>
+                    <ul class="drop_ul">
+                    <li><a href="#" class="drop_link">Dresses</a></li>
+                    <li><a href="#" class="drop_link">Tops</a></li>
+                    <li><a href="#" class="drop_link">Sweaters/knits</a></li>
+                    </ul>
+                </div>
+                <div class="drop__flex">
+                    <h3 class="drop_h3">Women</h3>
+                    <ul class="drop_ul">
+                        <li><a href="#" class="drop_link">Dresses</a></li>
+                        <li><a href="#" class="drop_link">Tops</a></li>
+                        <li><a href="#" class="drop_link">Sweaters/knits</a></li>
+                        <li><a href="#" class="drop_link">Jackets/Coats</a></li>
+                    </ul>
+                    <img class="drop_menu__img" src="img/index/global menu drop.png" alt="super sale">
+                </div>
+            </div>
+        </li>
+        <li class="menu__list"><a href="#" class="menu__link">Women</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Kids</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Accoseriese</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Featured</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Hot Deals</a></li>
+    </ul>
+</div>
+
+<!-- PROMO -->
+<div class="promo center">
+    <div class="promo__content">
+        <h2 class="promo__h2">THE BRAND</h2>
+        <h3 class="promo__h3">OF LUXERIOUS <span class="promo__color">FASHION</span></h3>
     </div>
-    <div class="navigation center">
-       <ul class="menu">
-           <li class="menu__list"><a href="#" class="menu__link">Home </a></li>
-           <li class="menu__list"><a href="#" class="menu__link">Man </a></li>
-           <li class="menu__list"><a href="#" class="menu__link">Women </a></li>
-           <li class="menu__list"><a href="#" class="menu__link">Kids </a></li>
-           <li class="menu__list"><a href="#" class="menu__link">Accoseriese </a></li>
-           <li class="menu__list"><a href="#" class="menu__link">Featured </a></li>
-           <li class="menu__list"><a href="#" class="menu__link">Hot </a></li>
-           <li class="menu__list"><a href="#" class="menu__link">Deals</a></li>
-       </ul></div>
-       <div class="promo center">
-          <div class="promo__content">
-              <h2 class="promo__h2">THE BRAND</h2>
-              <h3 class="promo__h3">OF LUXERIOUS <span class="promo__color">FASHION</span></h3>
-          </div>
-       </div> 
+</div> 
+<!-- CATEGORY -->
+<div class="category center">
+    <div class="sale">
+        <div class="banner__item_1">
+            <img class="banner_img" src="img/index/banner man.png" alt="for man">
+            <div class="banner_badge">
+                <h3 class="badge__h3">Hot Deal</h3>
+                <h2 class="badge__h2">For Man</h2>
+            </div>
+        </div>
+        <div class="banner">
+            <img class="banner_img" src="img/index/banner woman.png" alt="for women">
+            <div class="banner_badge">
+                <h3 class="badge__h3">30% Offer</h3>
+                <h2 class="badge__h2">Women</h2>
+            </div>
+        </div>
+        <div class="banner">
+            <img class="banner_img" src="img/index/banner acc.png" alt="accesories">
+            <div class="banner_badge__lux">
+                <h3 class="badge__h3">Luxirous & Trendy</h3>
+                <h2 class="badge__h2">Accesories</h2>
+            </div>
+        </div>
+        <div class="banner__item_2">
+            <img class="banner_img" src="img/index/banner kids.png" alt="for kids">
+            <div class="banner_badge__kids">
+                <h3 class="badge__h3">New Arrivals</h3>
+                <h2 class="badge__h2">For Kids</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CATALOG -->
+
+<div class="catalog center">
+    <h2 class="catalog_header">Fetured Items</h2>
+    <h4 class="catalog_promo">Shop for items based on what we featured in this week</h4>
+    
+    <div class="catalog_content">
+        
+        <div class="content__item">
+          <img class="content_img" src="img/index/catalog_item_1.png" alt="">  
+        </div>
+       
+        <div class="content__item">
+          <img class="content_img" src="img/index/catalog_item_2.png" alt="">  
+        </div>
+   
+        <div class="content__item">
+          <img class="content_img" src="img/index/catalog_item_3.png" alt="">  
+        </div>
+   
+        <div class="content__item">
+          <img class="content_img" src="img/index/catalog_item_4.png" alt="">  
+        </div>
+
+        <div class="content__item">
+          <img class="content_img" src="img/index/catalog_item_5.png" alt="">  
+        </div>
+   
+        <div class="content__item">
+          <img class="content_img" src="img/index/catalog_item_6.png" alt="">  
+        </div>
+    
+        <div class="content__item">
+          <img class="content_img" src="img/index/catalog_item_7.png" alt="">  
+        </div>
+   
+        <div class="content__item">
+          <img class="content_img" src="img/index/catalog_item_8.png" alt="">  
+        </div>
+    </div>
+  
+</div>
+
+
+
 </body>
 </html>
