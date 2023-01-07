@@ -146,34 +146,16 @@ a
 .header__right
     display: flex
 
-.headar__cart 
+.header__cart 
     margin-right: 26px
     position: relative
-    &:hover > .drop_cart
-    
-.button
-    font-size: 15px
-    font-weight: 400
-    color: #ffffff
-    background-color: #f16d7f
-    border: none
-    padding-left: 15px
-    padding-right: 15px
-    padding-top: 10px
-    padding-bottom: 10px
-    cursor: pointer
+
     &:hover
-        background-color: #f16d7fb0
-        transition-duration: 0.2s
-.account
-    height: 38px
-    width: 130px
- 
-.account_span
-        content: url("../img/index/poind down for my account.png")
-        padding-left: 6px
-        padding-bottom: 2px
-     
+        color: red
+        
+        & + .drop_cart
+            display: block 
+      
 
 .drop_cart
     min-width: 262px
@@ -188,8 +170,8 @@ a
     position: absolute
     z-index: 1
     top: 100px
-    left: 1300px
-
+    left: 1070px
+   
 .drop_cart_item
     display: flex
     border-bottom: 1px solid#edededbf
@@ -280,6 +262,34 @@ a
         color: #f16d7f
         border: 1px solid #f16d7f
         transition-duration: 0.8s
+
+.button
+    font-size: 15px
+    font-weight: 400
+    color: #ffffff
+    background-color: #f16d7f
+    border: none
+    padding-left: 15px
+    padding-right: 15px
+    padding-top: 10px
+    padding-bottom: 10px
+    cursor: pointer
+    
+    &:hover
+        background-color: #f16d7fb0
+        transition-duration: 0.2s
+
+.account
+    height: 38px
+    width: 130px
+ 
+.account_span
+        content: url("../img/index/poind down for my account.png")
+        padding-left: 6px
+        padding-bottom: 2px
+     
+
+
         
 
 
