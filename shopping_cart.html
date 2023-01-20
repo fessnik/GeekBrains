@@ -48,7 +48,7 @@
     </div>
 
     <div class="header__right">
-        <a class="header__cart" href="#"><img class="header__cart_img" src="img/Shopping_cart/header/cart.png" alt="cart"></a>
+        <a class="header__cart" href="shopping_cart.html"><img class="header__cart_img" src="img/Shopping_cart/header/cart.png" alt="cart"></a>
             <div class="drop_cart">
                     <div class="drop_cart_item">
                         <a href="#"><img class="drop_cart__img" src="img/index/cart_item_1.png" width="72px" height="85px" alt="cart_item"></a>
@@ -90,7 +90,7 @@
                         <p class="drop_cart_total_price__price">$500.00</p>
                     </div>
                     <a href="#" class="drop_cart__button">Checkout</a>
-                    <a href="#" class="drop_cart__button">Go to cart</a>
+                    <a href="shopping_cart.html" class="drop_cart__button">Go to cart</a>
             </div>
         <button class="button account" type="submit">My Account<span class="account_span"></span></button>
     </div>
@@ -408,33 +408,35 @@
 <!-- PRODUCTS -->
 <section class="products_cart center">
     <div class="products_head">
-        <p class="products_head__title_1">Product details</p>
+        <div class="products_head__title_1">Product details</div>
         <div class="product_head__right-column">
-            <p class="products_head__title">unite Price</p>
-            <p class="products_head__title">Quantity</p>
-            <p class="products_head__title">shipping</p>
-            <p class="products_head__title">Subtotal</p>
-            <p class="products_head__title">ACTION</p>
+            <div class="products_head__title">unit Price</div>
+            <div class="products_head__title">Quantity</div>
+            <div class="products_head__title">shipping</div>
+            <div class="products_head__title">Subtotal</div>
+            <div class="products_head__title">ACTION</div>
         </div>
     </div>
     <div class="product">
         <div class="product__left_column">
             <a href="single page.html"><img class="product_img" src="img/Shopping_cart/main/product_1.png" height="115px" width="100px" alt="product_1"></a>
             <div class="product__description">
-                <p class="product_title">Mango People T-shirt</p>
+                <a href="single page.html" class="product_title">Mango People T-shirt</a>
                 <p class="product_color">Color:<span class="product_color__color">Red</span></p>
                 <p class="product_size">Size:<span class="product_size__color">Xll</span></p>
             </div>
         </div>
         <div class="product__right_column">
-            <p class="product__price">$150</p>
+            <div class="product__price">$150</div>
             <div class="product__quantity">
                 <input class="choose_input" type="number" id="quantity" name="quantity" min="1" step="1">
             </div>
-            <p class="product__shipping">Free</p>
-            <p class="product__subtotal">Subtotal</p>
-            <div class="product__action">
-                <i class="fa-solid fa-xmark"></i>
+            <div class="product__shipping">Free</div>
+            <div class="product__subtotal">Subtotal</div>
+            <div class="product__action_wrap">
+                <div class="product__action">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
             </div>
         </div>
     </div>
@@ -442,20 +444,22 @@
         <div class="product__left_column">
             <a href="single page.html"><img class="product_img" src="img/Shopping_cart/main/product_2.png" height="115px" width="100px" alt="product_1"></a>
             <div class="product__description">
-                <p class="product_title">Mango People T-shirt</p>
+                <a href="single page.html" class="product_title">Mango People T-shirt</a>
                 <p class="product_color">Color:<span class="product_color__color">Red</span></p>
                 <p class="product_size">Size:<span class="product_size__color">Xll</span></p>
             </div>
         </div>
         <div class="product__right_column">
-            <p class="product__price">$150</p>
+            <div class="product__price">$150</div>
             <div class="product__quantity">
                 <input class="choose_input" type="number" id="quantity" name="quantity" min="1" step="1">
             </div>
-            <p class="product__shipping">Free</p>
-            <p class="product__subtotal">Subtotal</p>
-            <div class="product__action">
-                <i class="fa-solid fa-xmark"></i>
+            <div class="product__shipping">Free</div>
+            <div class="product__subtotal">Subtotal</div>
+            <div class="product__action_wrap">
+                <div class="product__action">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
             </div>
         </div>
     </div>
@@ -463,25 +467,78 @@
         <div class="product__left_column">
             <a href="single page.html"><img class="product_img" src="img/Shopping_cart/main/product_3.png" height="115px" width="100px" alt="product_1"></a>
             <div class="product__description">
-                <p class="product_title">Mango People T-shirt</p>
-                <p class="product_color">Color:<span class="product_color__color">Red</span></p>
-                <p class="product_size">Size:<span class="product_size__color">Xll</span></p>
+                <a href="single page.html" class="product_title">Mango People T-shirt</a>
+                <p class="product_color">Color:<span class="product_color__color"> Red</span></p>
+                <p class="product_size">Size:<span class="product_size__color"> Xll</span></p>
             </div>
         </div>
         <div class="product__right_column">
-            <p class="product__price">$150</p>
+            <div class="product__price">$150</div>
             <div class="product__quantity">
                 <input class="choose_input" type="number" id="quantity" name="quantity" min="1" step="1">
             </div>
-            <p class="product__shipping">Free</p>
-            <p class="product__subtotal">Subtotal</p>
-            <div class="product__action">
-                <i class="fa-solid fa-xmark"></i>
+            <div class="product__shipping">Free</div>
+            <div class="product__subtotal">Subtotal</div>
+            <div class="product__action_wrap">
+                <div class="product__action">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
             </div>
         </div>
     </div>
+    <div class="product_button">
+        <button class="product_button__button">cLEAR SHOPPING CART</button>
+        <button class="product_button__button">cONTINUE sHOPPING</button>
+    </div>
+</section>
+<!-- SHIPPING -->
+<section class="shipping_details center">
+    <div class="shipping_details__left-column">
+        <p class="left-column__title">Shipping Adress</p>
+        <select class="shipping_adress" name="country" id="country" placeholder="Bangladesh">
+            <option class="shipping_adress__option" value="Bangladesh">Bangladesh</option>
+            <option class="shipping_adress__option" value="China">China</option>
+            <option class="shipping_adress__option" value="Malaziya">Malaziya</option>
+            <option class="shipping_adress__option" value="Thailand">Thailand</option>
+        </select>
+        <input class="shipping_adress" type="text" id="State" name="State" placeholder="State">
+        <input class="shipping_adress" type="Postcode/Zip" id="Postcode/Zip" name="Postcode/Zip" placeholder="Postcode/Zip">
+        <button class="shipping_adress__button">get a quote</button>    
+    </div>
+
+    <div class="shipping_details__center-column">
+        <p class="center-column__title">coupon discount</p>
+        <label class="shipping_details__center_label" for="name">Enter your coupon code if you have one</label>
+        <input class="shipping_details__input" type="text" id="State" name="State" placeholder="State">
+        <button class="shipping_adress__button">Apply coupon</button>
+    </div>
+</div>
+
+    <div class="shipping_details__right-column">
+        <div class="total">
+            <div class="sub_total">
+                <p>Sub total</p>
+                <p class="sub_total__price">$900</p>
+            </div>
+            <div class="grand_total">
+                <p>Grand total</p>
+                <p class="grand_total__color">$900</p>
+            </div>
+        </div>
+        <div class="total_button__wrap">
+            <button class="total_button">proceed to checkout</button>
+        </div>
+    </div>
+
+
+
 
 </section>
+
+    
+
+</div>
+
 
 
 
